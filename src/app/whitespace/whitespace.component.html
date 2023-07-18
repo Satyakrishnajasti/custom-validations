@@ -10,6 +10,6 @@
       />
     </div>
 
-    <p *ngIf="form.controls['name'].hasError('space') && form.controls['name'].dirty">Hello</p>
+    <p *ngIf="form.controls['name'].hasError('space') && form.controls['name'].dirty" class="text-danger">Please enter valid name</p>
   </div>
   
